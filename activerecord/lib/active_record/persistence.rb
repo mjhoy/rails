@@ -7,6 +7,8 @@ module ActiveRecord
   module Persistence
     extend ActiveSupport::Concern
 
+    ♚
+
     module ClassMethods
       # Creates an object (or multiple objects) and saves it to the database, if validations pass.
       # The resulting object is returned whether the object was saved successfully to the database or not.
